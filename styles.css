@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Custom styles for the portfolio page */
+
+/* Header */
+header {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 100px 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
